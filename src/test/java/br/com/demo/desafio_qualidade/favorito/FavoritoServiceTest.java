@@ -2,9 +2,7 @@ package br.com.demo.desafio_qualidade.favorito;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
 class FavoritoServiceTest {
 
     private FavoritoService favoritoService;
