@@ -1,0 +1,41 @@
+# Personagens
+
+### Lista de personagens
+GET http://localhost:8080/personagem HTTP/1.1
+Accept: application/json
+
+
+### Busca personagens por nome
+GET http://localhost:8080/personagem?name=luke HTTP/1.1
+Accept: application/json
+
+
+
+# Favoritos
+
+
+### Adiciona personagem aos favoritos
+GET http://localhost:8080/favorito?acao=incluir&name=luke HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{
+	"name": "João da Silva"
+}
+
+
+
+### Lista todos os personagens favoritos
+GET http://localhost:8080/favorito?acao=consultar HTTP/1.1
+Accept: application/json
+
+
+### Remove personagem dos favoritos
+GET http://localhost:8080/favorito?acao=remover HTTP/1.1 
+Accept: application/json
+Content-Type: application/json
+
+{
+	"name": "João da Silva"
+}
+
