@@ -13,7 +13,7 @@ Algumas perguntas que podem orientar sua análise:
 
 ### Dicas
 
-- Utilize os arquivos `collections.json` (para Insomnia ou Postman) ou `client.rest` (REST Client no VSCode) para facilitar a exploração da API.
+- Utilize os arquivos `collections.json` (para Insomnia ou Postman) ou `client.rest` ([REST Client](https://github.com/Huachao/vscode-restclient) no VSCode) para facilitar a exploração da API.
 - A aplicação contém pontos de melhoria intencionais. Identificá-los, sugeri-los e implementá-los faz parte do desafio.
 
 
