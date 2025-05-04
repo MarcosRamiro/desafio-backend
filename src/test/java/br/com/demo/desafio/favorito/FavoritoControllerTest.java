@@ -1,6 +1,5 @@
-package br.com.demo.desafio_qualidade.favorito;
+package br.com.demo.desafio.favorito;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 import java.util.Arrays;
@@ -8,8 +7,11 @@ import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+
+import br.com.demo.desafio.favorito.FavoritoController;
+import br.com.demo.desafio.favorito.FavoritoRequest;
+import br.com.demo.desafio.favorito.FavoritoResponse;
 
 public class FavoritoControllerTest {
 

@@ -1,4 +1,4 @@
-package br.com.demo.desafio_qualidade.busca;
+package br.com.demo.desafio.busca;
 
 import java.util.List;
 

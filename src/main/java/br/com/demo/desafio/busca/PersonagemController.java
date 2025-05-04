@@ -1,4 +1,4 @@
-package br.com.demo.desafio_qualidade.busca;
+package br.com.demo.desafio.busca;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

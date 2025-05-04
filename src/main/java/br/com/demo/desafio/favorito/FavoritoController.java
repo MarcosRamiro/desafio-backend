@@ -1,4 +1,4 @@
-package br.com.demo.desafio_qualidade.favorito;
+package br.com.demo.desafio.favorito;
 
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;

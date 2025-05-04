@@ -1,4 +1,4 @@
-package br.com.demo.desafio_qualidade.favorito;
+package br.com.demo.desafio.favorito;
 
 import java.util.List;
 

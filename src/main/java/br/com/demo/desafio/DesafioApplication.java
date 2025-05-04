@@ -1,13 +1,13 @@
-package br.com.demo.desafio_qualidade;
+package br.com.demo.desafio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DesafioQualidadeApplication {
+public class DesafioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DesafioQualidadeApplication.class, args);
+		SpringApplication.run(DesafioApplication.class, args);
 	}
 
 }
