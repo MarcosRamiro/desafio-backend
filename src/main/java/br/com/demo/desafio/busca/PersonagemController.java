@@ -13,16 +13,16 @@ public class PersonagemController {
 
     private final PersonagemService service;
 
-    public PersonagemController(){
-        this.service = new PersonagemService(new PersonagemRepository());
+    public PersonagemController(PersonagemService service){
+        this.service = service;
     }
 
     @GetMapping
-    public List<Personagem> get(@RequestParam(required = false) String name){
+    public List<PersonagemModel> get(@RequestParam(required = false) String name){
         if (name == null) {
             return this.service.findAll();
         } else {
-            return this.service.getByName(name);
+            return this.service.getByNome(name);
         }
     }
 }
