@@ -3,9 +3,6 @@ package br.com.demo.desafio.favorito;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import br.com.demo.desafio.favorito.FavoritoRepository;
-import br.com.demo.desafio.favorito.FavoritoRequest;
-import br.com.demo.desafio.favorito.FavoritoService;
 
 class FavoritoServiceTest {
 

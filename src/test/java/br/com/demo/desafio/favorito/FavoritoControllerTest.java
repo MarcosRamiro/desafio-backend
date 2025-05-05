@@ -9,9 +9,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.ResponseEntity;
 
-import br.com.demo.desafio.favorito.FavoritoController;
-import br.com.demo.desafio.favorito.FavoritoRequest;
-import br.com.demo.desafio.favorito.FavoritoResponse;
 
 public class FavoritoControllerTest {
 
