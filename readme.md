@@ -1,26 +1,25 @@
 # Desafio Backend - API Star Wars
 
-
 Este projeto implementa uma API de personagens de Star Wars com funcionalidades de busca e gerenciamento de favoritos.
 
-O seu desafio é analisar o projeto com uma visão **analítica**, propor **melhorias técnicas**, e **implementar** tais sugestões.
+O seu desafio é avaliar a **qualidade** do projeto, propor **melhorias técnicas** e **implementá-las**.
 
-Algumas perguntas que podem orientar sua análise:
+Algumas perguntas que podem orientar sua avaliação:
 
-- O código segue boas práticas de desenvolvimento? O que poderia ser melhorado?
-- Que testes ou mecanismos de segurança você adicionaria para garantir a qualidade da aplicação?
-
+- A aplicação entrega uma boa **experiência** e **confiabilidade** aos seus usuários?
+- O código segue **boas práticas** de desenvolvimento? O que poderia ser melhorado?
+- Que testes ou mecanismos você adicionaria para garantir a **robustez** da aplicação?
 
 ### Dicas
 
 - Utilize os arquivos `collections.json` (para Insomnia ou Postman) ou `client.rest` ([REST Client](https://github.com/Huachao/vscode-restclient) no VSCode) para facilitar a exploração da API.
-- A aplicação contém pontos de melhoria intencionais. Identificá-los, sugeri-los e implementá-los faz parte do desafio.
-
+- A aplicação contém pontos de melhoria **intencionais**. Identificá-los, sugeri-los e implementá-los faz parte do desafio.
 
 ## Funcionalidades
 
-- Listar todos os personagens de Star Wars
-- Buscar personagens por nome
+- Listar todos os personagens de Star Wars  
+- Buscar personagens por nome  
+
 - Gerenciar personagens favoritos:
   - Adicionar personagem aos favoritos
   - Remover personagem dos favoritos
@@ -28,16 +27,16 @@ Algumas perguntas que podem orientar sua análise:
 
 ## Tecnologias
 
-- Java 17
-- Spring Boot 3.4.4
-- JUnit 5
+- Java 17  
+- Spring Boot 3.4.4  
+- JUnit 5  
 - Maven
 
 ## Como Começar
 
 ### Pré-requisitos
 
-- JDK 17 ou superior
+- JDK 17 ou superior  
 - Maven 3.9+
 
 
